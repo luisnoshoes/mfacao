@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="section" *ngFor="let section of sections">
+        <h2 class="section-title">{{section.title}}</h2>
+        <ul class="list">
+            <li class="item" *ngFor="let item of section.content">
+                <mat-icon aria-hidden="false" fontIcon="chevron_right" class="chevron"></mat-icon>
+                {{item}}
+            </li>
+        </ul>
+    </div>
+</div>

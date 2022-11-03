@@ -1,0 +1,66 @@
+
+[
+    {
+        "title": "Interesses de investigação",
+        "content": [
+            "Equações de evolução não lineares: soluções de equilíbrio e estabilidade",
+            "Solitões e ondas solitárias",
+            "Óptica não linear",
+            "Simulação de campos electromagnéticos em estruturas",
+            "Comunicações ópticas"
+        ]
+    },
+    {
+        "title": "Estudantes atuais",
+        "content": [
+            "Sílvia Rodrigues, PhD (co-orientação com Prof. Mário Ferreira), Modelação e simulação de fenómenos óticos não lineares em fibras microestruturadas",
+            "Ana Maria Rocha , Post-Doc (co-orientação com Dr. Rogério Nogueira), Amplificação ótica por multiplexagem espacial em fibras óticas"
+        ]
+    },
+    {
+        "title": "Estudantes anteriores",
+        "content": [
+            "Edgar Wright, MSc, Algoritmo Genético para fiber-FROG com Propagação Simulada de Pulsos (2014)",
+            "Sílvia Rodrigues, MSc (co-orientação com Prof. Mário Ferreira), Fibras Óticas microestruturadas e geração do efeito supercontínuo (2012)",
+            "Ana Maria Rocha, PhD (co-orientação com Prof. Paulo André), Estudo da Degradação de Fibras Óticas Sob o Efeito de Potências Elevadas (2012)"
+        ]
+    },
+    {
+        "title": "Publicações",
+        "content": [
+            "M. Facao, S. Rodrigues, M.I. Carvalho, “Temporal dissipative solitons in a three-level atomic medium confined in a photonic-band-gap fiber”, Phys. Rev. A 91, 013828 (2015)",
+            "A. Rocha, T. Almeida, R. Nogueira, and M. Facão, \"Analysis of power transfer on multicore fibers with long-period gratings\", Opt. Lett. 40, 292-295 (2015)",
+            "S.C.V Latas, M.F.S. Ferreira, M. Facao, “Characteristics of fixed-shape pulses emerging from pulsating, erupting, and creeping solitons”, Applied Physics B- Lasers and Optics, 116, p. 279-286 (2014)",
+            "M. Facao, M.I. Carvalho, “Dynamics of blueshifted floating pulses in gas-filled hollow-core photonic crystal fibers”, Applied Physics B- Lasers and Optics, 116 (2014), p. 353-357",
+            "S. M. Rodrigues, M. Facao, S.C. Latas, M.F Ferreira, “Highly nonlinear layered spiral microstructured optical fiber, Photonics and nanostructures- Fundamentals and Applications, 11 (2013), p. 226-233",
+            "M. Facao, M.I. Carvalho, P. Almeida, “Accelerating solitons in gas-filled hollow-core photonic crystal fibers”, Physical Review A 87 (2013), p. 063803",
+            "M. Facao, M.I. Carvalho, G.M. Fernandes, A.M. Rocha, A.N. Pinto,”Continuous wave supercontinuum generation pumped in the normal group velocity dispersion regime on a highly nonlinear fiber”, JOSA B 30 (2013), p.959-966",
+            "A. Rocha, G. Fernandes, F. Domingues, M. Niehus, A. Pinto, M. Facão, and P. André, \"Halting the fuse discharge propagation using optical fiber microwires\", Opt. Express 20, 21083-21088 (2012)",
+            "M. Facão, M.I. Carvalho, Stability of traveling pulses of cubic–quintic complex Ginzburg–Landau equation including intrapulse Raman scattering, Phys. Lett. A, 375(24), p. 2327-2332, 2011",
+            "A. Rocha, P. F. C. Antunes, M. F. F. Domingues, M. Facão, and P. S. B. André, Detection of Fiber Fuse Effect Using FBG Sensors, IEEE Sensors J., 11(6), p. 1390, 2011",
+            "M. Facão, A. M. Rocha, and P. S. B. André, Traveling Solutions of the Fuse Effect in Optical Fibers, J. Lightwave Technology, 29, p. 109, 2011",
+            "S.C.V. Latas, M.F.S. Ferreira, M.V. Facão, Impact of higher-order effects on pulsating, erupting and creeping solitons, App. Phys. B, DOI 10.1007/s00340-011-4474-7, 2011",
+            "M. Facao, M. I. Carvalho, S.C. Latas and M.F. Ferreira, Control of complex Ginzburg-Landau equation eruptions using intrapulse Raman scattering and corresponding traveling solutions, Physics Letters A 374, p. 4844-4847, 2010",
+            "M.I. Carvalho and M. Facao, Propagation of Airy-related beams, Optics Express, 18 (21), p.21938-21949, 2010",
+            "M. Facao, M.I. Carvalho and D.F. Parker, Soliton self-frequency shift: self-similar solutions and their stability, Phys. Rev. E, 81(4), p. 046604, 2010",
+            "Ana M. Rocha, B. Neto, M. Facão e P.S. André, Low cost incoherent pump solution for Raman fiber amplifier, Optica Applicata, 39 (2), 287, 2009",
+            "Ana M. Rocha, B. Neto, M. Facão e P. S. André, Study of Raman amplification with low cost incoherent pumps, Microw. Opt. Techn. Let.  50 (2), 301, 2008 (pdf)",
+            "M. I Carvalho, M. Facão e D.N. Christodoulides, Self-bending of dark and gray photorefractive solitons, Phys. Rev. E 76 (1), 016602, 2007 (pdf)",
+            "M. Facão e D.F. Parker, Existence and stability of accelerating solitons in sliding-frequency filter systems, Phys. Rev. E 71 (6), 066611, 2005 (pdf)",
+            "M. Facão, Existence and stability of accelerating optical solitons, Tese de doutoramento, University of Edinburgh, 2003 (pdf)",
+            "M. Facão e D.F. Parker, Stability of screening solitons in photorefractive media, Phys. Rev. E 68, 016610, 2003 (ps)",
+            "D. F. Parker, Ch. Radha e M. Facão, Accelerating solitons for sliding-frequency filter systems, Phys. Rev. E 65, 066615, 2002",
+            "M. Facão e M. Ferreira,Analysis of timing jitter for ultrashort soliton communication systems using perturbation methods, J.  Nonlinear Math. Phys. 8,112-117 Suppl. S, 2001",
+            "M.F.S. Ferreira, M. Facão e S.C.V. Latas, Stable soliton propagation in a system with spectral filtering and nonlinear gain, Fiber  Int. Optics 19-1, 31-41, 2000 (pdf)",
+            "M. Facão, Sistemas de comunicação óptica por solitões: análise com base na teoria de perturbações, Tese de PCCAP, Universidade de Aveiro, 1999 (pdf)",
+            "M. Facão, Interferómetro de Michelson: princípios e aplicações, Tese de PCCAP, Universidade de Aveiro, 1999 (pdf)"
+        ]
+    },
+    {
+        "title": "Conferências",
+        "content": [
+            "M.Facão e M.I. Carvalho, Stability of dark screening solitons in photorefractive media, Proceedings of the Workshop Nonlinear Physics: Theory and Experiment. V, Theoretical and Mathematical Physics 160(1), 917-924, 2009 (preprint)",
+            "A.M. Rocha, M. Facão, J.P. Sousa, A. Viegas, Simulation of  electromagnetic leakage from a microwave oven, Proceedings of EHE'06, 1.29-1.34, 2006 (pdf)"
+        ]
+    }
+]

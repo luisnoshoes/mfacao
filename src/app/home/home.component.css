@@ -1,0 +1,43 @@
+.container  {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+}
+
+.job {
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    color: gray;
+}
+
+/* .job::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 150%;
+    top: 50%;
+    left: ;
+    background-color: gray;
+} */
+
+.photo {
+    height: 20rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.workplace,
+.telephone,
+.email {
+    font-size: 1rem;
+    margin: .5rem;
+}
