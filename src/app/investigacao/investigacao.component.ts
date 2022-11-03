@@ -11,7 +11,6 @@ export class InvestigacaoComponent implements OnInit {
   
   sections: InvestigacaoSection[] = investigacao;
 
-  
   constructor() { }
 
   ngOnInit(): void {
