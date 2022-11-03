@@ -30,7 +30,6 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/mfacao/",
               "budgets": [
                 {
                   "type": "initial",
