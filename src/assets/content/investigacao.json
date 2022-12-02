@@ -2,61 +2,141 @@
   {
     "title": "Interesses de investigação",
     "content": [
-      "Equações de evolução não lineares: soluções de equilíbrio e estabilidade, solitões",
-      "Ótica não linear",
-      "Comunicações óticas",
-      "Distribuição de Chave Quântica"
+      {
+        "text": "Equações de evolução não lineares: soluções de equilíbrio e estabilidade, solitões"
+      },
+      {
+        "text": "Ótica não linear"
+      },
+      {
+        "text": "Comunicações óticas"
+      },
+      {
+        "text": "Distribuição de Chave Quântica"
+      }
     ]
   },
   {
     "title": "Estudantes atuais",
     "content": [
-      "Diogo Malheiro, Solitões quárticos: perspetiva clássica e quântica em regime conservativo ou disspipativo",
-      "Pedro Medeiros, Development of Multi-mode Interferometer Libraries for Access Networks, Estágio na PICadvanced"
+      {
+        "text": "Diogo Malheiro, Solitões quárticos: perspetiva clássica e quântica em regime conservativo ou disspipativo"
+      },
+      {
+        "text": "Pedro Medeiros, Development of Multi-mode Interferometer Libraries for Access Networks, Estágio na PICadvanced"
+      }
     ]
   },
   {
     "title": "Estudantes anteriores",
     "content": [
-      "Margarida Almeida, MSc, Practical security limits of continuous-variable quantum key distribution (2021)",
-      "Pedro Figueira, MSc, Development of a light scattering based biophysical model to assist the investigation of simple particles and biomarkers (2021), estágio na ILoF",
-      "Rui Martins, MSc, Método de Galerkin descontínuo com grelha adaptativa para problemas de electromagnetismo no domínio do tempo (2021)",
-      "Vitor Ferreira, MSc, Eavesdropping Strategies for Discrete Modulated Continuous-variable Quantum key distribution protocols, (2020)",
-      "Sílvia Rodrigues, PhD (co-orientação com Prof. Mário Ferreira), Modelação e simulação de fenómenos óticos não lineares em fibras microestruturadas (2020)",
-      "Joana Vieira, MSc, Redes de período longo inscritas por irradiação por laser femtosegundo: fabrico, caracterização e modelação teórica (2019) http://hdl.handle.net/10773/28690",
-      "Jorge Brandão, MSc, Ataques quânticos e os criptossistemas de McEliece (2018) http://hdl.handle.net/10773/27194",
-      "Daniel Pereira, MSc, Comunicações quânticas usando variáveis contínuas (2017) http://hdl.handle.net/10773/23570",
-      "Ana Isabel Machado, MSc, Redes de período longo inscritas por irradiação com laser de CO2: produção e modelação (2017) http://hdl.handle.net/10773/23557",
-      "Edgar Wright, MSc, Algoritmo Genético para fiber-FROG com Propagação Simulada de Pulsos (2014)",
-      "Sílvia Rodrigues, MSc (co-orientação com Prof. Mário Ferreira), Fibras Óticas microestruturadas e geração do efeito supercontínuo (2012)",
-      "Ana Maria Rocha, PhD (co-orientação com Prof. Paulo André), Estudo da Degradação de Fibras Óticas Sob o Efeito de Potências Elevadas (2012)"
+      {
+        "text": "Margarida Almeida, MSc, Practical security limits of continuous-variable quantum key distribution (2021)"
+      },
+      {
+        "text": "Pedro Figueira, MSc, Development of a light scattering based biophysical model to assist the investigation of simple particles and biomarkers (2021), estágio na ILoF"
+      },
+      {
+        "text": "Rui Martins, MSc, Método de Galerkin descontínuo com grelha adaptativa para problemas de electromagnetismo no domínio do tempo (2021)"
+      },
+      {
+        "text": "Vitor Ferreira, MSc, Eavesdropping Strategies for Discrete Modulated Continuous-variable Quantum key distribution protocols, (2020)"
+      },
+      {
+        "text": "Sílvia Rodrigues, PhD (co-orientação com Prof. Mário Ferreira), Modelação e simulação de fenómenos óticos não lineares em fibras microestruturadas (2020)"
+      },
+      {
+        "text": "Joana Vieira, MSc, Redes de período longo inscritas por irradiação por laser femtosegundo: fabrico, caracterização e modelação teórica (2019)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/28690"
+        }
+      },
+      {
+        "text": "Jorge Brandão, MSc, Ataques quânticos e os criptossistemas de McEliece (2018)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/27194"
+        }
+      },
+      {
+        "text": "Daniel Pereira, MSc, Comunicações quânticas usando variáveis contínuas (2017)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/23570"
+        }
+      },
+      {
+        "text": "Ana Isabel Machado, MSc, Redes de período longo inscritas por irradiação com laser de CO2: produção e modelação (2017)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/23557"
+        }
+      },
+      {
+        "text": "Edgar Wright, MSc, Algoritmo Genético para fiber-FROG com Propagação Simulada de Pulsos (2014)"
+      },
+      {
+        "text": "Sílvia Rodrigues, MSc (co-orientação com Prof. Mário Ferreira), Fibras Óticas microestruturadas e geração do efeito supercontínuo (2012)"
+      },
+      {
+        "text": "Ana Maria Rocha, PhD (co-orientação com Prof. Paulo André), Estudo da Degradação de Fibras Óticas Sob o Efeito de Potências Elevadas (2012)"
+      }
     ]
   },
   {
     "title": "Publicações",
     "content": [
-      "Ver perfil do ResearchGate https://www.researchgate.net/profile/M-Facao"
+      {
+        "text": "Ver perfil do ResearchGate",
+        "link": {
+          "name": "link",
+          "url": "https://www.researchgate.net/profile/M-Facao"
+        }
+      }
     ]
   },
   {
     "title": "Participação em Projetos",
     "content": [
-      "Digitalização da Aquacultura: da análise preditiva à plataforma fotónica inteligente, 2022 a 2024",
-      "SAFE-HOME: Security-Aware Fog-based Efficient Home Monitoring for Elders, 2021 a 2023",
-      "QUANTUMMINING - Quantum Primitives for Privacy Preserving Data Mining, 2018 a 2021",
-      "AROMA - Novos designs de sensores em fibra ótica para a deteção de compostos de aroma, 2018 a 2021",
-      "MCTECHS - Multicore fibers technologies for high-capacity Optical Networks, 2018 a 2021",
-      "Steering of light in nonlinear waveguides with resonant interactions, 2011 a 2014",
-      "OSP-HNLF - Optical Signal Processing Using Highly Nonlinear Fibers, 2010 a 2013",
-      "FEfOF - Fuse effect on optical fibers, 2098 a 2010"
+      {
+        "text": "Digitalização da Aquacultura: da análise preditiva à plataforma fotónica inteligente, 2022 a 2024"
+      },
+      {
+        "text": "SAFE-HOME: Security-Aware Fog-based Efficient Home Monitoring for Elders, 2021 a 2023"
+      },
+      {
+        "text": "QUANTUMMINING - Quantum Primitives for Privacy Preserving Data Mining, 2018 a 2021"
+      },
+      {
+        "text": "AROMA - Novos designs de sensores em fibra ótica para a deteção de compostos de aroma, 2018 a 2021"
+      },
+      {
+        "text": "MCTECHS - Multicore fibers technologies for high-capacity Optical Networks, 2018 a 2021"
+      },
+      {
+        "text": "Steering of light in nonlinear waveguides with resonant interactions, 2011 a 2014"
+      },
+      {
+        "text": "OSP-HNLF - Optical Signal Processing Using Highly Nonlinear Fibers, 2010 a 2013"
+      },
+      {
+        "text": "FEfOF - Fuse effect on optical fibers, 2098 a 2010"
+      }
     ]
   },
   {
     "title": "Teses",
     "content": [
-      "M. Facão, Existence and stability of accelerating optical solitons, Tese de doutoramento, University of Edinburgh, 2003 (pdf)",
-      "M. Facão, Sistemas de comunicação óptica por solitões: análise com base na teoria de perturbações, Tese de PCCAP, Universidade de Aveiro, 1999 (pdf)",
-      "M. Facão, Interferómetro de Michelson: princípios e aplicações, Tese de PCCAP, Universidade de Aveiro, 1999 (pdf)"
+      {
+        "text": "M. Facão, Existence and stability of accelerating optical solitons, Tese de doutoramento, University of Edinburgh, 2003 (pdf)"
+      },
+      {
+        "text": "M. Facão, Sistemas de comunicação óptica por solitões: análise com base na teoria de perturbações, Tese de PCCAP, Universidade de Aveiro, 1999 (pdf)"
+      },
+      {
+        "text": "M. Facão, Interferómetro de Michelson: princípios e aplicações, Tese de PCCAP, Universidade de Aveiro, 1999 (pdf)"
+      }
     ]
   }
 ]

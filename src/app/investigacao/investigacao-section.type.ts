@@ -1,4 +1,10 @@
 export type InvestigacaoSection = {
     title: string,
-    content: string[]
+    content: {
+        text: string,
+        link?: {
+            name: string,
+            url: string
+        }
+    }[]
 }
