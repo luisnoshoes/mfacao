@@ -1,0 +1,20 @@
+<div *ngIf="homeInfo$ | async as homeInfo" class="container">
+    <h1 class="name">
+        {{homeInfo.name}}
+    </h1>
+    <h2 class="job">
+        {{homeInfo.job}}
+    </h2>
+    <img [src]="homeInfo.photo.url" class="photo">
+    <span class="workplace">
+        {{homeInfo.workplace}}
+    </span>
+    <span class="telephone">
+        {{homeInfo.telephone}}
+    </span>
+    <span class="email">
+        <a [href]="'mailto:' + homeInfo.email">
+            {{homeInfo.email}}
+        </a>
+    </span>
+</div>

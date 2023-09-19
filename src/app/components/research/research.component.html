@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="section" *ngFor="let section of sections">
+    <div class="section" *ngFor="let section of sections$ | async">
         <h2 class="section-title">{{section.title}}</h2>
         <ul class="list">
             <li class="item" *ngFor="let item of section.content">

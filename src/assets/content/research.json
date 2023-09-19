@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Research areas",
+    "content": [
+      {
+        "text": "Nonlinear evolution equations: equilibrium solutions and stability, solitons"
+      },
+      {
+        "text": "Nonlinear optics"
+      },
+      {
+        "text": "Optical communications"
+      },
+      {
+        "text": "Quantum key distribution"
+      }
+    ]
+  },
+  {
+    "title": "Present students",
+    "content": [
+      {
+        "text": "Diogo Malheiro, Quartic solitons in dissipative systems"
+      }
+    ]
+  },
+  {
+    "title": "Previous students",
+    "content": [
+      {
+        "text": "Pedro Medeiros, MSc, Development of Multi-mode Interferometer Libraries for Access Networks, Internship in PICadvanced (2023)"
+      },
+      {
+        "text": "Margarida Almeida, MSc, Practical security limits of continuous-variable quantum key distribution (2021)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/33756"
+        }
+      },
+      {
+        "text": "Pedro Figueira, MSc, Development of a light scattering based biophysical model to assist the investigation of simple particles and biomarkers (2021), estágio na ILoF"
+      },
+      {
+        "text": "Rui Martins, MSc, Discontinuous Galerkin method with adaptive grid for time domain electromagnetism problems (2021)"
+      },
+      {
+        "text": "Vitor Ferreira, MSc, Eavesdropping Strategies for Discrete Modulated Continuous-variable Quantum key distribution protocols, (2020)"
+      },
+      {
+        "text": "Sílvia Rodrigues, PhD, Modelling and simulation of nonlinear phenomena in microstructured optical fibres (2020)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/28955"
+        }
+      },
+      {
+        "text": "Joana Vieira, MSc, Long-period gratings inscribed by femtosecond laser: fabrication, characterization and theoretical modeling (2019)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/28690"
+        }
+      },
+      {
+        "text": "Jorge Brandão, MSc, Quantum attacks and McEliece's cryptosystems (2018)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/27194"
+        }
+      },
+      {
+        "text": "Daniel Pereira, MSc, Quantum communications with continuous variables (2017)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/23570"
+        }
+      },
+      {
+        "text": "Ana Isabel Machado, MSc, Long-period gratings inscribed by CO2 laser irradiation: production and modeling (2017)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/23557"
+        }
+      },
+      {
+        "text": "Edgar Wright, MSc, Genetic algorithm for fiber-FROG using simulated pulse propagation (2014)",
+        "link": {
+          "name": "link",
+          "url": "https://hdl.handle.net/10773/14277"
+        }
+      },
+      {
+        "text": "Sílvia Rodrigues, MSc, Microstructured optical fibers and supercontinuum generation (2012)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/10229"
+        }
+      },
+      {
+        "text": "Ana Maria Rocha, PhD,  Study of the Degradation of Optical Fibers Under the Effect of High Power (2012)",
+        "link": {
+          "name": "link",
+          "url": "http://hdl.handle.net/10773/8681"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Publications",
+    "content": [
+      {
+        "text": "See my ResearchGate page",
+        "link": {
+          "name": "link",
+          "url": "https://www.researchgate.net/profile/M-Facao"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Participation in Projects",
+    "content": [
+      {
+        "text": "DIGIAQUA: Digitizing Aquaculture: from predictive analytics to intelligent photonics platform, 2022 a 2024"
+      },
+      {
+        "text": "SAFE-HOME: Security-Aware Fog-based Efficient Home Monitoring for Elders, 2021 a 2023"
+      },
+      {
+        "text": "QUANTUMMINING - Quantum Primitives for Privacy Preserving Data Mining, 2018 a 2021"
+      },
+      {
+        "text": "AROMA - “Novel optical fibre designs for AROMA compounds detection, 2018 a 2021"
+      },
+      {
+        "text": "MCTECHS - Multicore fibers technologies for high-capacity Optical Networks, 2018 a 2021"
+      },
+      {
+        "text": "Steering of light in nonlinear waveguides with resonant interactions, 2011 a 2014"
+      },
+      {
+        "text": "OSP-HNLF - Optical Signal Processing Using Highly Nonlinear Fibers, 2010 a 2013"
+      },
+      {
+        "text": "FEfOF - Fuse effect on optical fibers, 2098 a 2010"
+      }
+    ]
+  },
+  {
+    "title": "Thesis",
+    "content": [
+      {
+        "text": "M. Facão, Existence and stability of accelerating optical solitons, Tese de doutoramento, University of Edinburgh, 2003"
+      },
+      {
+        "text": "M. Facão, Sistemas de comunicação óptica por solitões: análise com base na teoria de perturbações, Tese de PCCAP, Universidade de Aveiro, 1999 (pdf)"
+      },
+      {
+        "text": "M. Facão, Interferómetro de Michelson: princípios e aplicações, Tese de PCCAP, Universidade de Aveiro, 1999"
+      }
+    ]
+  }
+]
