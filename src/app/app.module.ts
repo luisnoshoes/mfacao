@@ -11,29 +11,23 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatIconModule} from '@angular/material/icon';
-
-import { NavComponent } from './nav/nav.component';
-import { HomeComponent } from './home/home.component';
-import { InvestigacaoComponent } from './investigacao/investigacao.component';
-import { EnsinoComponent } from './ensino/ensino.component';
-import { CurriculumComponent } from './curriculum/curriculum.component';
-import { OutrosComponent } from './outros/outros.component';
-
-
+import { HomeComponent } from './components/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NavComponent } from './components/nav/nav.component';
+import { ResearchComponent } from './components/research/research.component';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HomeComponent,
-    InvestigacaoComponent,
-    EnsinoComponent,
-    CurriculumComponent,
-    OutrosComponent
+    ResearchComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
@@ -41,7 +35,8 @@ import { OutrosComponent } from './outros/outros.component';
     MatButtonModule,
     MatCardModule,
     FlexLayoutModule,
-    MatIconModule
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
