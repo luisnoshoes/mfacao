@@ -12,10 +12,10 @@ export class ContentService {
   constructor(private readonly httpClient: HttpClient) { }
 
   getResearch(): Observable<ResearchSection[]> {
-    return this.httpClient.get<ResearchSection[]>('../assets/content/research.json');
+    return this.httpClient.get<ResearchSection[]>('assets/content/research.json');
   }
 
   getHome(): Observable<HomeInfo> {
-    return this.httpClient.get<HomeInfo>('../assets/content/home.json');
+    return this.httpClient.get<HomeInfo>('assets/content/home.json');
   }
 }
