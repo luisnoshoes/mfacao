@@ -2,9 +2,10 @@
     "name": "Margarida Facão",
     "job": "Professora auxiliar",
     "photo": {
-        "url": "assets/img/eu.jpg"
+        "url": "assets/img/eu_b.jpg"
     },
-    "workplace": "Departamento de Física, Universidade de Aveiro, 3810-193 Aveiro",
+    "faculty": "Departamento de Física",
+    "address": "Universidade de Aveiro, 3810-193 Aveiro",
     "telephone": "234370285",
     "email": "mfacao@ua.pt"
 }
