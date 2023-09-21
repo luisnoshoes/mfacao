@@ -1,14 +1,15 @@
 .container  {
-    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 2rem
 }
 
 .name {
     font-size: 2.5rem;
     font-weight: 300;
     letter-spacing: .2rem;
+    margin-bottom: 0;
 }
 
 .job {
@@ -27,6 +28,5 @@
 .workplace,
 .telephone,
 .email {
-    font-size: 1rem;
     margin-bottom: .5rem;
 }
