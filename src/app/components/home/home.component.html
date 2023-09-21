@@ -1,4 +1,4 @@
-<div *ngIf="homeInfo$ | async as homeInfo" class="container">
+<div @fade *ngIf="homeInfo$ | async as homeInfo" class="container">
     <h1 class="name">
         {{homeInfo.name}}
     </h1>
