@@ -1,32 +1,30 @@
 .container {
     height: calc(100vh - 64px);
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+}
+
+.name {
+    letter-spacing: .2rem;
+    margin-bottom: 0;
 }
 
 .job {
     color: gray;
 }
 
-@media only screen and (min-width: 600px) {
-    .name {
-        font-size: 2.5rem;
-    }
-
-    .job {
-        font-size: 1.2rem;
-    }
-}
-
 
 .photo {
     max-height: 25rem;
     max-width: 80vw;
+    min-width: 0;
+    min-height: 0;
     margin-bottom: 1rem;
-    border-radius: 50%
+    border-radius: 50%;
+    flex-shrink: 1;
 }
 
 .workplace {

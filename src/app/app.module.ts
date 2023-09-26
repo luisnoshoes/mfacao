@@ -9,13 +9,15 @@ import { HomeComponent } from './components/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ResearchComponent } from './components/research/research.component';
+import { TypographyTestComponent } from './components/typography-test/typography-test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavComponent,
-    ResearchComponent
+    ResearchComponent,
+    TypographyTestComponent
   ],
   imports: [
     BrowserModule,

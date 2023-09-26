@@ -2,9 +2,9 @@
     <h1 class="name">
         {{homeInfo.name}}
     </h1>
-    <h2 class="job">
+    <h3 class="job">
         {{homeInfo.job}}
-    </h2>
+    </h3>
     <img [src]="homeInfo.photo.url" class="photo">
 
     <div class="workplace">
@@ -14,13 +14,13 @@
     <div class="contact-container">
         <div class="contact">
             <mat-icon fontIcon="call"></mat-icon>
-            <a [href]="'tel:' + homeInfo.telephone" style="text-decoration: none;">
+            <a [href]="'tel:' + homeInfo.telephone">
                 {{homeInfo.telephone}}
             </a>
         </div>
         <div class="contact">
             <mat-icon fontIcon="mail"></mat-icon>
-            <a [href]="'mailto:' + homeInfo.email" style="text-decoration: none;">
+            <a [href]="'mailto:' + homeInfo.email">
                 {{homeInfo.email}}
             </a>
         </div>
