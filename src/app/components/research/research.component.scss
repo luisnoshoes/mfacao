@@ -1,0 +1,27 @@
+.container {
+    padding: 2rem 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 2rem 4rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding: 2rem 8rem;
+    }
+}
+
+.section:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.item {
+    list-style: none;
+
+    &:not(:last-child) {
+        margin-bottom: .5rem;
+    }
+}

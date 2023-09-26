@@ -1,20 +1,28 @@
-<div *ngIf="homeInfo$ | async as homeInfo" class="container">
+<div @fade *ngIf="homeInfo$ | async as homeInfo" class="container">
     <h1 class="name">
         {{homeInfo.name}}
     </h1>
-    <h2 class="job">
+    <h3 class="job">
         {{homeInfo.job}}
-    </h2>
+    </h3>
     <img [src]="homeInfo.photo.url" class="photo">
-    <span class="workplace">
-        {{homeInfo.workplace}}
-    </span>
-    <span class="telephone">
-        {{homeInfo.telephone}}
-    </span>
-    <span class="email">
-        <a [href]="'mailto:' + homeInfo.email">
-            {{homeInfo.email}}
-        </a>
-    </span>
+
+    <div class="workplace">
+        <span>{{homeInfo.faculty}}</span>
+        <span>{{homeInfo.address}}</span>
+    </div>
+    <div class="contact-container">
+        <div class="contact">
+            <mat-icon fontIcon="call"></mat-icon>
+            <a [href]="'tel:' + homeInfo.telephone">
+                {{homeInfo.telephone}}
+            </a>
+        </div>
+        <div class="contact">
+            <mat-icon fontIcon="mail"></mat-icon>
+            <a [href]="'mailto:' + homeInfo.email">
+                {{homeInfo.email}}
+            </a>
+        </div>
+    </div>
 </div>
