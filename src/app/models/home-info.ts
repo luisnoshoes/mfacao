@@ -2,7 +2,8 @@ export interface HomeInfo {
     name: string;
     job: string;
     photo: Photo;
-    workplace: string;
+    faculty: string;
+    address: string;
     telephone: string;
     email: string;
 }
