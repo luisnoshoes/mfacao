@@ -16,11 +16,11 @@ import {
   styleUrls: ['./home.component.scss'],
   animations: [
     trigger('fade', [
-      transition('void => *', [
+      transition(':enter', [
         style({ opacity: 0 }),
-        animate(1000, style({ opacity: 1 }))
+        animate('1s 0.5s', style({ opacity: 1 }))
       ])
-    ])
+    ]),
   ]
 })
 export class HomeComponent implements OnInit {
