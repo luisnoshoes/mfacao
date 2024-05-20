@@ -10,7 +10,7 @@
 
 @media only screen and (min-width: 1024px) {
     .container {
-        padding: 2rem 8rem;
+        padding: 2rem 15rem;
     }
 }
 
@@ -18,10 +18,15 @@
     margin-bottom: 1.5rem;
 }
 
-.item {
-    list-style: none;
+mat-list-item {
+    border-radius: 10px !important;
 
-    &:not(:last-child) {
-        margin-bottom: .5rem;
+    &.link {
+        cursor: pointer;
+    }
+    &:hover {
+        background-color: whitesmoke;
+        padding-left: 30px;
+        transition: all .3s;
     }
 }

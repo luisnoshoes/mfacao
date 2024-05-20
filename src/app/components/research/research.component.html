@@ -1,12 +1,76 @@
-<div class="container">
-    <div class="section" *ngFor="let section of sections$ | async">
-        <h1 class="section-title">{{section.title}}</h1>
-        <hr>
-        <ul class="list">
-            <li class="item" *ngFor="let item of section.content">
-                {{item.text}}
-                <a *ngIf="item.link" [href]="item.link.url">{{item.link.name}}</a>
-            </li>
-        </ul>
+<div class="container" *ngIf="researchContent$ | async as content">
+    <div class="section">
+        <h1>{{content.researchAreas.title}}</h1>
+        <mat-divider></mat-divider>
+        <mat-list>
+            <mat-list-item *ngFor="let item of content.researchAreas.items">
+                <span matListItemTitle>{{item.text}}</span>
+            </mat-list-item>
+        </mat-list>
+    </div>
+    <div class="section">
+        <h1>{{content.presentStudents.title}}</h1>
+        <mat-divider></mat-divider>
+        <mat-list>
+            <mat-list-item *ngFor="let item of content.presentStudents.items">
+                <span matListItemTitle>{{item.name}}</span>
+                <span matListItemLine>{{item.thesis}}</span>
+            </mat-list-item>
+        </mat-list>
+    </div>
+    <div class="section">
+        <h1>{{content.previousStudents.title}}</h1>
+        <mat-divider></mat-divider>
+        <mat-list>
+            <mat-list-item 
+                *ngFor="let item of content.previousStudents.items"
+                matRipple 
+                [matRippleDisabled]="!item.link"
+                [ngClass]="{'link': !!item.link}"
+                (click)="openInNewTab(item.link)"
+            >
+                <span matListItemTitle>{{item.name}}<span></span></span>
+                <span matListItemLine>{{item.thesis}}</span>
+                <span matListItemMeta *ngIf="item.year">{{item.year}}</span>
+            </mat-list-item>
+        </mat-list>
+    </div>
+    <div class="section">
+        <h1>{{content.publications.title}}</h1>
+        <mat-divider></mat-divider>
+        <mat-list>
+            <mat-list-item 
+                class="link"
+                *ngFor="let item of content.publications.items"
+                matRipple 
+                (click)="openInNewTab(item.link)"
+            >
+                <mat-icon matListItemIcon>open_in_new</mat-icon>
+                <span matListItemTitle>{{item.text}}</span>
+            </mat-list-item>
+        </mat-list>
+    </div>
+    <div class="section">
+        <h1>{{content.projectParticipation.title}}</h1>
+        <mat-divider></mat-divider>
+        <mat-list>
+            <mat-list-item *ngFor="let item of content.projectParticipation.items" lines="2">
+                <span matListItemTitle>{{item.projectName}}<span></span></span>
+                <span matListItemLine *ngIf="item.projectDescription">{{item.projectDescription}}</span>
+                <span matListItemMeta>{{item.from}} - {{item.to}}</span>
+            </mat-list-item>
+        </mat-list>
+    </div>
+    <div class="section">
+        <h1>{{content.thesis.title}}</h1>
+        <mat-divider></mat-divider>
+        <mat-list>
+            <mat-list-item *ngFor="let item of content.thesis.items" lines="3">
+                <span matListItemTitle>{{item.thesis}}<span></span></span>
+                <span matListItemLine>{{item.type}}</span>
+                <span matListItemLine>{{item.location}}</span>
+                <span matListItemMeta>{{item.year}}</span>
+            </mat-list-item>
+        </mat-list>
     </div>
 </div>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ResearchSection } from 'src/app/models/research-section';
+import { ResearchContent } from 'src/app/models/research/research-content';
 import { ContentService } from 'src/app/services/content.service';
 
 @Component({
@@ -10,12 +10,18 @@ import { ContentService } from 'src/app/services/content.service';
 })
 export class ResearchComponent implements OnInit {
   
-  sections$: Observable<ResearchSection[]>;
+  researchContent$: Observable<ResearchContent>;
 
   constructor(private contentService: ContentService) { }
 
   ngOnInit(): void {
-    this.sections$ = this.contentService.getResearch()
+    this.researchContent$ = this.contentService.getResearch()
   }
 
+  openInNewTab(url: string) {
+    if (!url) {
+      return;
+    }
+    window.open(url, '_blank');
+  }
 }
