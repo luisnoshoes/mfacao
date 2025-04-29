@@ -10,6 +10,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ResearchComponent } from './components/research/research.component';
 import { TypographyTestComponent } from './components/typography-test/typography-test.component';
+import { TeachingComponent } from './components/teaching/teaching.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TypographyTestComponent } from './components/typography-test/typography
     HomeComponent,
     NavComponent,
     ResearchComponent,
-    TypographyTestComponent
+    TypographyTestComponent,
+    TeachingComponent,
   ],
   imports: [
     BrowserModule,

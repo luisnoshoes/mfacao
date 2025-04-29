@@ -17,3 +17,8 @@ mat-divider {
 .nav-link-active {
     background-color: gainsboro;
 }
+
+.nav-links-container {
+  display: flex;
+  gap: 1rem;
+}

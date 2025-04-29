@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ResearchSection } from 'src/app/models/research-section';
+import { Section } from 'src/app/models/section';
 import { HomeInfo } from '../models/home-info';
 
 @Injectable({
@@ -11,8 +11,12 @@ export class ContentService {
 
   constructor(private readonly httpClient: HttpClient) { }
 
-  getResearch(): Observable<ResearchSection[]> {
-    return this.httpClient.get<ResearchSection[]>('assets/content/research.json');
+  getResearch(): Observable<Section[]> {
+    return this.httpClient.get<Section[]>('assets/content/research.json');
+  }
+
+  getTeaching(): Observable<Section[]> {
+    return this.httpClient.get<Section[]>('assets/content/teaching.json');
   }
 
   getHome(): Observable<HomeInfo> {

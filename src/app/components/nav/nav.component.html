@@ -1,5 +1,8 @@
 <mat-toolbar>
     <span class="home" routerLink="">Home</span>
     <mat-divider [vertical]="true"></mat-divider>
-    <button mat-button routerLink="research" routerLinkActive="nav-link-active">Research</button>
+    <div class="nav-links-container">
+      <button mat-button routerLink="research" routerLinkActive="nav-link-active">Research</button>
+      <button mat-button routerLink="teaching" routerLinkActive="nav-link-active">Teaching</button>
+    </div>
 </mat-toolbar>

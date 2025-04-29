@@ -4,18 +4,17 @@ import { Section } from 'src/app/models/section';
 import { ContentService } from 'src/app/services/content.service';
 
 @Component({
-  selector: 'app-research',
-  templateUrl: './research.component.html',
-  styleUrls: ['./research.component.scss']
+  selector: 'app-teaching',
+  templateUrl: './teaching.component.html',
+  styleUrls: ['./teaching.component.scss']
 })
-export class ResearchComponent implements OnInit {
+export class TeachingComponent implements OnInit {
 
   sections$: Observable<Section[]>;
 
   constructor(private contentService: ContentService) { }
 
   ngOnInit(): void {
-    this.sections$ = this.contentService.getResearch()
+    this.sections$ = this.contentService.getTeaching()
   }
-
 }
